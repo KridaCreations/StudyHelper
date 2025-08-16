@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://beij81ap6lj65"]
+
+[node name="world" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 600.0
+offset_bottom = 1300.0
+color = Color(0.510913, 0.171776, 0.0795176, 1)
+
+[node name="RevisionHelperButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 254.0
+offset_right = 450.0
+offset_bottom = 354.8
+text = "Revision Helper"
+
+[node name="StudyTImerButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 405.0
+offset_right = 450.0
+offset_bottom = 505.8
+text = "Study Timer"
+
+[node name="MeditationTImerButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 547.0
+offset_right = 450.0
+offset_bottom = 647.8
+text = "Meditation TImer"
